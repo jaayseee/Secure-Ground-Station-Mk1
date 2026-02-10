@@ -1,6 +1,6 @@
 # Secure-Ground-Station-Mk1
 
-# Secure Ground Station Architecture (Earth Observation Systems)
+# Secure Ground Station Architecture (Earth Observation Systems) 🚀🌎
 
 ## Goal
 Design and prototype a secure ground station system that ingests Earth observation imagery data, processes it in an isolated environment, stores it securely, and provides controlled access to analysts. This repo focuses on security engineering artefacts: requirements, architecture, threat modelling, and validation.
