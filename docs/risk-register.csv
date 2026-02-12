@@ -1,1 +1,9 @@
+RiskID,Threat,Category,Likelihood,Impact,RiskScore,RiskLevel,Mitigation,ResidualRisk,Owner,Status
+R1,Malicious file upload,Tampering,3,3,9,High,File validation + hashing + size limits,Medium,System Engineer,Open
+R2,API flooding,DoS,3,2,6,High,Rate limiting + firewall rules,Low,System Engineer,Open
+R3,DMZ pivot to internal,Elevation of Privilege,2,3,6,High,Strict segmentation + deny rules,Low,System Engineer,Open
+R4,Unauthorized analyst access,Information Disclosure,2,3,6,High,RBAC + audit logs,Low,System Engineer,Open
+R5,Metadata tampering,Tampering,2,2,4,Medium,Restricted DB access,Low,System Engineer,Open
+R6,Credential exposure,Spoofing,2,3,6,High,No hardcoded secrets,Low,System Engineer,Open
+R7,Insufficient logging,Repudiation,2,2,4,Medium,Central logging,Low,System Engineer,Open
 
