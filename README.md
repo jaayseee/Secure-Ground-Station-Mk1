@@ -27,4 +27,4 @@ Design and prototype a secure ground station system that ingests Earth observati
 - (Planned) Threat model + TRA + security test report + lab build
 
 ## Status
-Week 1: planning and design artefacts in progress.
+Adding lab tests in progress..
