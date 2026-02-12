@@ -1,0 +1,11 @@
+RequirementID,DesignControl,VerificationMethod,EvidenceFile
+SR-01,Define zones/subnets + pfSense interfaces,Review network diagram + lab config,diagrams/network-architecture.png
+SR-02,Ingestion only in DMZ + firewall deny rules,Nmap test from external to internal,evidence/week5/nmap-results.txt
+SR-03,Jump host + mgmt network only,Attempt SSH/RDP from non-mgmt networks,evidence/week5/access-tests.md
+SR-04,Firewall deny inbound to Processing,Port scan from Analyst to Processing,evidence/week5/nmap-results.txt
+SR-05,Default deny + explicit allow list,Review firewall rules + rule table,docs/05-firewall-rules.md
+SR-07,Auth on portal/API,Access test without login,evidence/week4/api-auth-test.md
+SR-08,Role-based permissions read-only,Attempt write action as analyst,evidence/week4/rbac-test.md
+SR-15,JSON audit logs implemented,Review sample logs,evidence/week4/log-samples.json
+SR-16,Centralize logs to monitoring,Verify logs appear in Wazuh,evidence/week5/wazuh-screenshots.md
+SR-19,Vulnerability scanning and remediation tracking,Scan report + remediation log,evidence/week5/vuln-scan-summary.md
