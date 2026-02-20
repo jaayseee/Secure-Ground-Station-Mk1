@@ -63,7 +63,7 @@ The ANALYST zone was configured with a strict default-deny posture and selective
 
 ### Analyst HTTPS Allowed
 
-![Analyst HTTPS Allowed](../evidence/logging/firewall-log-data-deny-analyst-https-allow.png)
+![Analyst HTTPS Allowed](../evidence/logging/firewall-logs-default-deny-and-analyst-https.png)
 
 Validation Result:
 - ICMP outbound: Blocked
