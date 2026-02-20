@@ -22,7 +22,7 @@ The DATA zone was hardened using a default-deny policy with no outbound rules co
 
 ### DATA Default-Deny Verification
 
-![DATA Default Deny](../evidence/firewall-tests/firewall-data-default-deny.png)
+![DATA Default Deny](../evidence/firewall-tests/network-data-default-deny.png)
 
 Validation Result:
 - DATA → Internet: Blocked
